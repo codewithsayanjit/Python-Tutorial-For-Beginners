@@ -4,6 +4,8 @@ _sayanjit = 34
 
 # @sameer = 56 # Invalid due to @ symbol
 # s@meer # Invalid due to @ symbol
+
+
 '''
 Rules for Choosing an Identifier : 
 1. A variable name can contain alphabets, digits, and underscores.
