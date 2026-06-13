@@ -15,3 +15,7 @@ print(type(c))
 print(type(d))
 
 # A number can be converted into a string and vice versa (if possible)
+
+str(31) # integer to string conversion
+int("32") # string to integer conversion
+float(32) # integer to float conversion
