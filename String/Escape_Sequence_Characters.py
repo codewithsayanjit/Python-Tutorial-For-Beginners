@@ -14,3 +14,8 @@ Escape Sequence Characters in Python:
 9. \v : It is used to insert a vertical tab in the string.
 10. \0 : It is used to insert a null character in the string.
 '''
+
+a = "Sayanjit is a good boy\nbut not a bad \"boy\'.''"
+
+
+print(a)
