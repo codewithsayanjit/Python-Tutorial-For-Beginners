@@ -2,4 +2,4 @@
 
 name = input("Enter your name: ")
 
-print(f"Good Afternoon, {name} ") 
+print(f"Good Afternoon, {name} ") # "f" is used for string formatting to include the variable 'name' in the output.
