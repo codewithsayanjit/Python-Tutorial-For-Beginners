@@ -15,7 +15,7 @@ Escape Sequence Characters in Python:
 10. \0 : It is used to insert a null character in the string.
 '''
 
-a = "Sayanjit is a good boy\nbut not a bad \"boy\'.''"
+a = "Sayanjit is a good boy\nbut not a bad \"boy\" "
 
 
 print(a)
