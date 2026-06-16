@@ -1,9 +1,9 @@
 s = {1, 2, 3}
 
-s.add(4)
-s.update([5, 6])
-s.remove(2)
-s.discard(10)
+s.add(4) # Add an element to the set
+s.update([5, 6]) # Update the set with multiple elements from an iterable (like a list)
+s.remove(2) # Remove an element from the set; raises KeyError if the element is not found
+s.discard(10) # Remove an element from the set if it is present; does nothing if the element is not found
 
 print("Set:", s) # Sets are unordered, so the output may not be in the same order as the input
 print("Union:", s.union({7, 8})) # Union of sets combines all unique elements from both sets
