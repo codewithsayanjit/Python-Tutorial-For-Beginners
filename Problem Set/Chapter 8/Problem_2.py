@@ -5,4 +5,4 @@ def f_to_c(f):
 
 f = int(input("Enter temperature in F: "))
 c = f_to_c(f)
-print(f"{round(c, 2)}°C")
+print(f"{round(c, 2)}°C") #The round() function is used to round a number to a specified number of decimal places.
