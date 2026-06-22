@@ -9,7 +9,7 @@ import random
 
 def game(): 
     print("You are playing the game..")
-    score = random.randint(1, 62)
+    score = random.randint(1, 62) #randint(1, 62) generates a random integer between 1 and 62.
     # Fetch the hiscore
     with open("hiscore.txt") as f:
         hiscore = f.read()
