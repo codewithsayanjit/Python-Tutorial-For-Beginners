@@ -1,3 +1,11 @@
+'''
+__init__() Constructor :
+
+__init__() is a special method which is first run as soon as the object is created.
+__init__() method is also known as constructor.
+It takes ‘self’ argument and can also take further arguments.
+'''
+
 class Employee: 
     language = "Python" # This is a class attribute
     salary = 1200000
@@ -17,8 +25,9 @@ class Employee:
         print("Good morning")
 
 
-harry = Employee("Harry", 1300000, "JavaScript") 
-# harry.name = "Harry"
-print(harry.name, harry.salary, harry.language)
+sayanjit = Employee("sayanjit", 1300000, "JavaScript") 
+# sayanjit.name = "sayanjit"
+print(sayanjit.name, sayanjit.salary, sayanjit.language)
 
-rohan = Employee()
+rohan = Employee("Rohan", 1000000, "Python")
+print(rohan.name, rohan.salary, rohan.language)
