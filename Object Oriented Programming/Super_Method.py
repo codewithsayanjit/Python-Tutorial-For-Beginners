@@ -12,7 +12,7 @@ class Programmer(Employee):
 
 class Manager(Programmer):
     def __init__(self):
-        super().__init__() # super() method is used to access the methods of a super class in the derived class.
+        super().__init__() # super() method is used to access the methods of a super class in the derived class. __init__() Calls constructor of the base class
         print("Constructor of Manager")
     c = 3
 
