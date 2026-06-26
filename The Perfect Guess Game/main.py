@@ -6,9 +6,10 @@ When the user guesses the correct number, the program displays the number of gue
 '''
 
 import random
+
 n = random.randint(1, 100) 
-a = -1
-guesses = 1
+a = -1 # It is just a starting value. Since the random number is between 1 and 100, -1 can never equal n.
+guesses = 1 # It counts how many attempts the user takes.
 while(a != n):
     a = int(input("Guess the number: ")) 
     if(a >n):
