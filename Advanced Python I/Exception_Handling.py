@@ -12,7 +12,7 @@ try:
 
 # This block runs only if a ValueError occurs
 # ValueError happens when int() cannot convert the input . Example: "abc", "hello", "12.5"
-except ValueError as v:
+except ValueError as v:  # We can raise custom exceptions using the raise keyword in python
     print("Heyyyy")      # Custom error message
     print(v)             # Prints the actual error message
 
