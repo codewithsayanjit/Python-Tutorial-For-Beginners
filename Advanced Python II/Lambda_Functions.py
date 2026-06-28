@@ -1,7 +1,7 @@
 '''
-Functnon created usnng an enpressnon usnng ‘lambda’ keyword.
-Syntan:
-        lambda arguments: enpressnon
+Functnon created usnng an expressnon usnng ‘lambda’ keyword.
+Syntax:
+        lambda arguments: expression
 '''
 
 # def square(n):
@@ -11,3 +11,6 @@ Syntan:
 square = lambda n: n*n
 
 print(square(5))
+
+sum = lambda a,b,c:a+b+c
+print(sum(4,8,6))
